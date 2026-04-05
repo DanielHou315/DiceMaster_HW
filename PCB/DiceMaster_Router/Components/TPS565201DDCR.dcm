@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TPS565201DDCR
+D 4.5V to 17V, 5A, Synchronous Step-Down Voltage Regulator in SOT23
+K
+F http://www.ti.com/lit/gpn/tps565201
+$ENDCMP
+#
+#End Doc Library
