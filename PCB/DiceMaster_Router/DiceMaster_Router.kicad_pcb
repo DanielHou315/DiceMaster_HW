@@ -82,9 +82,9 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "gerbers/")
 		)
 	)
 	(footprint "Resistor_SMD:R_0402_1005Metric"
@@ -255,6 +255,7 @@
 		(property "Reference" "U1"
 			(at 5 -10 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "240ce842-ae85-49c6-9dd5-f6fba3e7fdde")
 			(effects
 				(font
@@ -264,7 +265,7 @@
 			)
 		)
 		(property "Value" "BMI160_Breakout"
-			(at -0.5 11.5 0)
+			(at 2.5 6.5 0)
 			(layer "F.Fab")
 			(uuid "62408eaa-d3ae-44a0-9567-85bddd268de7")
 			(effects
@@ -387,7 +388,7 @@
 			(layer "F.CrtYd")
 			(uuid "99f1628b-f3e4-40aa-9b71-96e0534312d7")
 		)
-		(fp_text user "Pin 1"
+		(fp_text user "IMU"
 			(at 1.5 0 0)
 			(layer "F.SilkS")
 			(uuid "e2ba8403-b691-4cc3-b966-a17e15c89451")
@@ -698,9 +699,9 @@
 		(descr "JST GH series connector, SM06B-GHS-TB (http://www.jst-mfg.com/product/pdf/eng/eGH.pdf)")
 		(tags "connector JST GH horizontal")
 		(property "Reference" "J_A1"
-			(at 0 -4 0)
+			(at 5.5 -3 0)
 			(layer "F.SilkS")
-			(uuid "f43af329-dc91-4855-91b8-55b3955681bc")
+			(uuid "b84e1f63-2891-487a-aaa9-6eb5ff32662e")
 			(effects
 				(font
 					(size 1 1)
@@ -711,7 +712,7 @@
 		(property "Value" "SM06B-GHS-TB"
 			(at 0 3.9 0)
 			(layer "F.Fab")
-			(uuid "10da65d7-ee9e-4fe4-aaab-88498aced990")
+			(uuid "7f5f378b-883c-4e8c-aa4e-43b41753052d")
 			(effects
 				(font
 					(size 1 1)
@@ -723,7 +724,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ffc3acc7-7d16-497d-a541-f578ac0f06ad")
+			(uuid "02c03452-c239-487a-a8ca-d591a039f022")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -734,7 +735,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fcedfe59-cfdf-4d6f-9bd1-0422e997c0d6")
+			(uuid "5288dcff-9f79-4aa4-badb-76593d0a91a4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1468,7 +1469,7 @@
 		(descr "JST GH series connector, SM06B-GHS-TB (http://www.jst-mfg.com/product/pdf/eng/eGH.pdf)")
 		(tags "connector JST GH horizontal")
 		(property "Reference" "J_F1"
-			(at 5.625 -2.65 90)
+			(at 4.625 -3.65 0)
 			(layer "F.SilkS")
 			(uuid "d801a7a1-3318-44b2-9da7-d7a02d629d36")
 			(effects
@@ -1922,6 +1923,7 @@
 		(property "Reference" "J_C1"
 			(at 2.525 0.35 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "2a085848-c36e-417c-a1b6-7c8badacde51")
 			(effects
 				(font
@@ -2374,6 +2376,7 @@
 		(property "Reference" "J_B1"
 			(at 2 1 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "0e6ce033-9a06-4dbc-9cf6-9191b516387c")
 			(effects
 				(font
@@ -2824,9 +2827,9 @@
 		(descr "JST GH series connector, SM06B-GHS-TB (http://www.jst-mfg.com/product/pdf/eng/eGH.pdf)")
 		(tags "connector JST GH horizontal")
 		(property "Reference" "J_E1"
-			(at 3.125 -4.35 90)
+			(at -4.875 -3.85 0)
 			(layer "F.SilkS")
-			(uuid "40c28b5b-eee0-4cb2-aff4-10a611859292")
+			(uuid "319c6b46-0f21-421c-96b5-967d8ac219fa")
 			(effects
 				(font
 					(size 1 1)
@@ -2837,7 +2840,7 @@
 		(property "Value" "SM06B-GHS-TB"
 			(at 0 4.15 90)
 			(layer "F.Fab")
-			(uuid "a09ab699-a8f5-446d-a06a-f3725c72db5d")
+			(uuid "2353d927-1a5c-4121-a9aa-67af2810057a")
 			(effects
 				(font
 					(size 1 1)
@@ -2849,7 +2852,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0ab11bbc-4b1e-4801-9412-e72ce0b39a33")
+			(uuid "31bf620e-9e0f-4f0a-a31f-44850fcb5623")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2860,7 +2863,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "68003afe-e80e-45f4-a3a5-39b0431116e5")
+			(uuid "5bfbc04f-7a72-480e-9785-aa36bd07b08b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3742,7 +3745,7 @@
 		(descr "JST GH series connector, SM06B-GHS-TB (http://www.jst-mfg.com/product/pdf/eng/eGH.pdf)")
 		(tags "connector JST GH horizontal")
 		(property "Reference" "J_D1"
-			(at 0 -3.9 0)
+			(at -2 4.35 0)
 			(layer "F.SilkS")
 			(uuid "0b05710d-376f-48d3-a2e9-c2fa15c44647")
 			(effects
@@ -5850,7 +5853,7 @@
 				)
 			)
 		)
-		(property "Value" "SW"
+		(property "Value" "J_SW"
 			(at -3 4 0)
 			(layer "F.SilkS")
 			(uuid "5cfab90d-c1ba-461a-af20-7a0156448bee")
@@ -6963,8 +6966,8 @@
 				)
 			)
 		)
-		(property "Value" "Battery"
-			(at -2.475 3.85 0)
+		(property "Value" "J_BAT"
+			(at -2.975 3.85 0)
 			(layer "F.SilkS")
 			(uuid "d8229b41-1991-4137-9e13-d88de4dd397c")
 			(effects
@@ -8403,6 +8406,42 @@
 		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "c207ec56-0452-4189-a0e4-23bb4b8f16a7")
+	)
+	(gr_text "J_B1"
+		(at 59 85 0)
+		(layer "F.SilkS")
+		(uuid "d7a70144-960e-4706-95d3-46158c23dc20")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "J_C1"
+		(at 59 98.46 0)
+		(layer "F.SilkS")
+		(uuid "9067d90c-4840-45aa-95b7-5444c3cfe920")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "J_FAN"
+		(at 102.5 55 0)
+		(layer "F.SilkS")
+		(uuid "ba585d03-6d3c-4c75-b046-d4d10b0f0ee6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
 	)
 	(segment
 		(start 96.95 98.45)
