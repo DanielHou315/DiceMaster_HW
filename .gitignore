@@ -44,3 +44,12 @@ CLAUDE.md
 
 # KiCad plugins (large binaries)
 PCB/*/Plugins/
+
+# OS
+.DS_Store
+PCB/**/.DS_Store
+
+# Local tooling
+.mcp.json
+.playwright-mcp/
+.history
