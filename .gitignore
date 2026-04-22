@@ -41,3 +41,6 @@ fp-info-cache
 
 CLAUDE.md
 .claude/
+
+# KiCad plugins (large binaries)
+PCB/*/Plugins/
