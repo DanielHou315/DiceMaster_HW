@@ -39,8 +39,22 @@ fp-info-cache
 # Local project settings
 *.kicad_prl
 
+# AI agent / assistant files
+AGENTS.md
 CLAUDE.md
+CLAUDE.local.md
 .claude/
+GEMINI.md
+.gemini/
+.cursor/
+.cursorrules
+.cursorignore
+.cursorindexingignore
+.aider*
+.windsurfrules
+.windsurf/
+.continue/
+.github/copilot-instructions.md
 
 # KiCad plugins (large binaries)
 PCB/*/Plugins/
