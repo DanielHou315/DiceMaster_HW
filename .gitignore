@@ -67,3 +67,4 @@ PCB/**/.DS_Store
 .mcp.json
 .playwright-mcp/
 .history
+.worktrees
